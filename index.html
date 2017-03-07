@@ -1,0 +1,47 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>OriBoard</title>
+	<link rel="stylesheet" type="text/css" href="pinzettastyle.css">
+</head>
+<body>
+	<div class="Rex-baner">
+		<div id="store-beats">
+			<audio id="b01" src="Audio/Beats/01.wav" loop></audio>
+			<audio id="b02" src="Audio/Beats/02.wav" loop></audio>
+			<audio id="b03" src="Audio/Beats/03.wav" loop></audio>
+			<audio id="b04" src="Audio/Beats/04.wav" loop></audio>
+			<audio id="b05" src="Audio/Beats/05.wav" loop></audio>
+			<audio id="b06" volume="0.5" src="Audio/Beats/06.wav" loop></audio>
+		</div>
+		<div id="store-samples">
+			<audio id="s01" src="Audio/Orielator/01.wav" ></audio>
+			<audio id="s02" src="Audio/Orielator/02.wav" ></audio>
+			<audio id="s03" src="Audio/Orielator/03.wav" ></audio>
+			<audio id="s04" src="Audio/Orielator/04.wav" ></audio>
+			<audio id="s05" src="Audio/Orielator/05.wav" ></audio>
+		</div>
+	</div>
+	<div class="outer-div">
+		<div class="beats">
+			<h1>BEATS</h1>
+			<div class="button" onclick="playBeat('b01')"><span>BASIC</span></div>
+			<div class="button black" onclick="playBeat('b02')"><span>ORI'S NIGHT</span></div>
+			<div class="button orange" onclick="playBeat('b03')"><span>FUNKY</span></div>
+			<div class="button green" onclick="playBeat('b04')"><span>KARAOKE</span></div>
+			<div class="button blue" onclick="playBeat('b05')"><span>CONGA</span></div>
+			<div class="button black" onclick="playBeat('b06')"><span>DRAMA</span></div>
+		</div>
+		<div class="samples">
+			<h1>ORIEL</h1>
+			<div class="button red" onclick="playSample('s01')"><span>EXTERMINAR</span></div>
+			<div class="button blue" onclick="playSample('s02')"><span>GUARDIAN SOFTWARE</span></div>
+			<div class="button" onclick="playSample('s03')"><span>HOLA</span></div>
+			<div class="button green" onclick="playSample('s04')"><span>ÑACK</span></div>
+			<div class="button red" onclick="playSample('s05')"><span>MATAR A TODOS</span></div>
+		</div>
+	</div>
+	<script src="karaoke.js"></script>
+</body>
+</html>
