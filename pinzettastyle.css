@@ -1,22 +1,18 @@
-@media only screen and (max-width: 500px) {
-    .outer-div{display:block;}
-	.beats{width:100%}
-	.samples{width:100%}
-}
-		div.outer-div {
+
+		.outer-div {
 			display: flex;
 			align-items: center;
 			justify-content: center;
 		}
 
-		div.beats {
+		.beats {
 			width:400px;
 		}
 		.panel{
 			width:200px;
 			height:460px;
 		}
-		div.Rex-baner{
+		.Rex-baner{
 			margin-left:auto;
 			margin-right:auto;
 		}
@@ -80,3 +76,16 @@
 		#store-beats{
 			display:none;
 		}
+@media only screen and (max-width: 500px) {
+    .outer-div{
+		display:block;
+		width:100%;
+	}
+	.beats{width:100%}
+	.samples{width:100%}
+	.button{
+		width:100px;
+		height:100px;
+		font-size:15px;
+	}
+}
